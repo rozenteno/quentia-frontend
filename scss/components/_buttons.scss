@@ -1,0 +1,42 @@
+.btn {
+  border-radius: 0;
+  color: #fff;
+  font-size: 12px;
+  &:hover {
+    color: #fff;
+  }
+  &--main {
+    background-color: $main-pink;
+    font-family: $secondary-font;
+
+    padding: 6px 23px;
+
+    &:hover {
+      background-color: darken($main-pink, 5%);
+    }
+  }
+  &--secondary {
+    font-family: $third-font;
+    background-color: $secondary-btn-color;
+    padding: 12px 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    &:hover {
+      background-color: darken($secondary-btn-color, 5%);
+    }
+  }
+  &__underline--pink {
+    font-family: $secondary-font;
+    border: none;
+    color: #f9acbb;
+    border-bottom: 1px solid $main-pink;
+    padding-bottom: 7px;
+    margin-top: 20px;
+    transition: all 0.3s ease-in;
+    background-color: transparent;
+    &:hover {
+      color: darken($main-pink, 2%);
+    }
+  }
+}

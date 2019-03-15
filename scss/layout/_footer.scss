@@ -1,0 +1,21 @@
+footer {
+  background-color: #fafafa;
+  margin-top: 2.5rem;
+  padding: 50px 0 10px 0;
+  .footer__bottom {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #e5e5e5;
+  }
+  .media--footer {
+    ul {
+      margin-left: 30px;
+      li {
+        margin-right: 12px;
+        display: inline;
+        font-size: 2rem;
+        color: $main-pink;
+      }
+    }
+  }
+}

@@ -1,0 +1,236 @@
+// HEADER FONTS
+
+h1.header__content--main {
+  font-family: $secondary-font;
+  font-weight: 600;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+  @include respond("desktop") {
+    font-size: 3.5rem;
+  }
+  span.light-border {
+    // border-bottom: 10px solid $light-pink;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 128px;
+      height: 15px;
+      // left: 51%;
+      // bottom: 24%;
+      left: 0;
+      bottom: 0;
+      z-index: -1;
+      background-color: $light-pink;
+      transform-origin: 0 0;
+      transform: scale3d(0, 1, 1);
+      @include respond("desktop") {
+        left: 0;
+        bottom: 0;
+        width: 180px;
+        height: 20px;
+      }
+    }
+    &::before {
+      transition: transform 0.8s cubic-bezier(0.2, 1, 0.3, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  span.moderate-border {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 165px;
+      height: 15px;
+      left: 0;
+      bottom: 0;
+      z-index: -1;
+      background-color: $moderate-pink;
+      @include respond("desktop") {
+        width: 230px;
+        height: 20px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+  @-moz-document url-prefix() {
+    span.moderate-border {
+      &::before {
+        top: 110px;
+        left: -520px;
+        right: 0;
+        bottom: 0;
+      }
+    }
+  }
+  // span.light-border::after {
+  //   content: "";
+  //   position: absolute;
+  //   left: 46%;
+  //   top: 32%;
+  //   width: 36%;
+  //   height: 15px;
+  //   z-index: -1;
+  //   background-color: $light-pink;
+  //   @include respond("tab-land") {
+  //     left: 40%;
+  //   }
+  // }
+}
+p.header__content--secondary {
+  font-family: $secondary-font;
+  font-weight: 400;
+  font-size: 15px;
+  color: #4a4a4a;
+  margin-bottom: 2rem;
+}
+h3.header__content--third {
+  font-family: $main-font;
+  margin-top: 3rem;
+}
+
+.form-row {
+  input.form-control {
+    font-family: $secondary-font;
+    color: #9b9b9b;
+    font-size: 12px;
+  }
+}
+
+.motto__container {
+  &--text {
+    font-family: $secondary-font;
+    color: #4a4a4a;
+    font-size: 14px;
+    line-height: 2;
+    text-align: justify;
+    span {
+      font-weight: 600;
+      color: #000;
+    }
+  }
+}
+
+.works__container {
+  &--text {
+    h1,
+    h4 {
+      font-family: $main-font;
+      color: #67554f;
+    }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      @include respond("desktop") {
+        font-size: 2.5rem;
+      }
+    }
+    h4 {
+      font-size: 1.5rem;
+      margin-top: 0.5rem;
+    }
+    h3,
+    p {
+      font-family: $secondary-font;
+    }
+    h3 {
+      font-weight: 400;
+      color: #4a4a4a;
+      text-align: justify;
+      font-size: 1rem;
+      margin-top: 30px;
+      line-height: 1.5;
+    }
+    p {
+      font-size: 0.8rem;
+      @include respond("desktop") {
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+.want-to-rent {
+  h1 {
+    font-family: $main-font;
+    color: #4a4a4a;
+    margin-bottom: 2rem;
+  }
+  p {
+    font-family: $secondary-font;
+    color: $main-pink;
+    margin-top: 1rem;
+  }
+}
+.quote {
+  &__content {
+    h1 {
+      font-family: $main-font;
+      font-size: 1.8rem;
+      @include respond("desktop") {
+        font-size: 3rem;
+      }
+    }
+  }
+}
+.agent__container {
+  h1 {
+    font-family: $main-font;
+    font-size: 3rem;
+  }
+  h3 {
+    font-family: $secondary-font;
+    font-weight: 400;
+    color: #4a4a4a;
+    text-align: justify;
+    font-size: 1rem;
+    margin-top: 30px;
+    line-height: 1.5;
+  }
+}
+.phone__app-text {
+  h1 {
+    font-family: $main-font;
+    color: $main-pink;
+    font-size: 3rem;
+  }
+  h3 {
+    font-family: $secondary-font;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 30px 0;
+  }
+}
+footer {
+  h4 {
+    font-family: $main-font;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    @include respond("desktop") {
+      font-size: 0.8rem;
+    }
+  }
+  ul {
+    list-style: none;
+    li {
+      font-family: $secondary-font;
+      font-size: 0.9rem;
+      margin-top: 0.7rem;
+      color: #4a4a4a;
+      @include respond("desktop") {
+        font-size: 0.7rem;
+      }
+    }
+  }
+  p {
+    font-family: $secondary-font;
+    font-size: 0.7rem;
+    color: #cacaca;
+  }
+}

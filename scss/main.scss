@@ -1,0 +1,18 @@
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+@import "base/base";
+@import "base/typography";
+
+@import "components/buttons";
+
+@import "layout/navbar";
+@import "layout/footer";
+
+@import "pages/home.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,62 @@
+nav.navbar {
+  a {
+    img {
+      height: 40px;
+      @include respond("tab-port") {
+        height: 50px;
+      }
+    }
+  }
+  .collapse.navbar-collapse {
+    @include respond("tab-port") {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+  button.navbar-toggler {
+    i {
+      color: #fff;
+    }
+  }
+  .navbar-nav {
+    li {
+      a {
+        color: #000;
+
+        &.bold {
+          font-weight: 600;
+          @include respond("desktop") {
+            $circle-width: 25px;
+            $circle-spacing: 5px;
+            position: relative;
+
+            &,
+            &:before,
+            &:after {
+              display: block;
+              border-radius: 50%;
+              width: $circle-width;
+              height: $circle-width;
+            }
+
+            &:before,
+            &:after {
+              position: absolute;
+              content: "";
+              left: 82px;
+            }
+
+            &:before {
+              transform: translateX(-($circle-width + $circle-spacing));
+              background-color: darken($light-pink, 10%);
+            }
+          }
+        }
+      }
+    }
+  }
+  @include respond("tab-port") {
+    width: 50%;
+    background-color: #fff;
+  }
+}
