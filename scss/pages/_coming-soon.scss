@@ -1,0 +1,73 @@
+.jumbotron.jumbotron-fluid {
+  // background: lighten(#e9edf3, 5.5%);
+  background-color: #fff;
+  height: 80vh;
+  margin-bottom: 5rem;
+  @include respond("tab-port") {
+    margin-bottom: 1rem;
+  }
+  .hero {
+    &__inner--text {
+      padding: 88px 0 20px 40px;
+      @include respond("tab-port") {
+        padding: 88px 0 120px 80px;
+      }
+    }
+    &__inner--media {
+      position: relative;
+      &--image {
+        // margin: 0 auto;
+        // box-shadow: 48px 16px 48px rgba(0, 0, 0, 0.12);
+        // border-radius: 4px;
+        transform: perspective(1000px) rotateY(16deg) rotateX(2deg)
+          rotateZ(-7deg) scaleY(0.95) translatex(2%);
+        animation: fadeInLeftMedia 1s 0.2s both cubic-bezier(0.3, 0, 0.2, 1);
+      }
+    }
+  }
+}
+
+@keyframes fadeInLeftMedia {
+  0% {
+    opacity: 0;
+    transform: scale(0.8) translate3d(40px, 10px, 0);
+  }
+  30% {
+    opacity: 1;
+  }
+}
+
+.product__info {
+  &__inner--text {
+    h1 {
+      font-family: $main-font;
+      font-size: 3rem;
+      color: $main-pink;
+    }
+    p {
+      font-family: $secondary-font;
+      line-height: 1.7;
+    }
+  }
+  &__inner--media {
+    img {
+      margin: 1rem auto;
+      box-shadow: 48px 16px 48px rgba(0, 0, 0, 0.12);
+      transform: perspective(1000px) rotateY(10deg) translateY(2%);
+      animation: fadeUpBox 1s 0.2s both cubic-bezier(0.3, 0, 0.2, 1);
+      will-change: transform;
+      @include respond("tab-port") {
+        height: 500px;
+      }
+    }
+  }
+}
+@keyframes fadeUpBox {
+  0% {
+    opacity: 0;
+    transform: scale(0.95) translate3d(-40px, 20px, 0);
+  }
+  30% {
+    opacity: 1;
+  }
+}

@@ -38,9 +38,34 @@
     fill: $light-pink;
   }
 }
+.svg--snow {
+  position: absolute;
+  top: 1100px;
+  left: 0;
+  width: 50vw;
+  height: 415px;
+  z-index: -1;
+  @include respond("tab-port") {
+    top: 100%;
+    left: 0;
+    // z-index: 10;
+    width: 427px;
+    height: 915px;
+  }
+  @include respond("desktop") {
+    top: 60%;
+    left: 0;
+    // z-index: 10;
+    width: 427px;
+    height: 915px;
+  }
+  rect {
+    fill: #fff6f9;
+  }
+}
 
 .header__content {
-  padding: 100px 0 50px 0;
+  padding: 20px 0 50px 0;
   @include respond("tab-land") {
     padding: 80px 100px 0 0;
   }
@@ -58,9 +83,12 @@
     }
   }
 }
-.img-header {
+img.img-header {
+  height: 400px;
+  margin: 0 auto;
   @include respond("desktop") {
     margin-top: -50px;
+    height: auto;
   }
 }
 .media ul {
@@ -77,9 +105,19 @@
 }
 
 .media ul li {
-  font-size: 18px;
-  margin: 24px 0;
-  color: $main-pink;
+  font-size: 1.4rem;
+  margin: 15px 0;
+  a i {
+    &.fa-facebook-f {
+      color: #0078ff;
+    }
+    &.fa-instagram {
+      color: #c13584;
+    }
+    &.fa-twitter {
+      color: #1da1f2;
+    }
+  }
 }
 .motto__container {
   margin-bottom: 30px;
@@ -133,6 +171,9 @@
 }
 .want-to-rent {
   margin: 40px 0;
+  a {
+    text-decoration: none;
+  }
 }
 
 .quote {
@@ -210,6 +251,9 @@
   }
 }
 .phone__app {
+  img.app-icons {
+    height: 40px;
+  }
   img.mobile-devices {
     margin-top: 30px;
     @include respond("desktop") {
@@ -241,12 +285,15 @@
     top: 0;
     left: 0;
     width: 0%;
-    height: 110%;
+    height: 100%;
     background: $main-pink;
     position: absolute;
-    margin-top: -50px;
     animation: rev-img 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
     animation-delay: 1.2s;
+    @include respond("tab-port") {
+      height: 110%;
+      margin-top: -50px;
+    }
   }
   img {
     opacity: 0;

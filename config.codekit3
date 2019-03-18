@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26667",
 "files": {
+	"\/coming-soon.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/coming-soon.html",
+		"oF": 0
+		},
 	"\/css\/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -203,6 +210,77 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/Quentia_Product.jpg": {
+		"ft": 16384,
+		"iS": 26747,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/Quentia_Product.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/Quentia_Product.png": {
+		"ft": 32768,
+		"iS": 2309259,
+		"oA": 0,
+		"oAP": "\/img\/Quentia_Product.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/Quentia_Product.pxd\/data\/9F67F0D6-30A5-481B-B0FC-8639FDF12C6E": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/img\/Quentia_Product.pxd\/data\/9F67F0D6-30A5-481B-B0FC-8639FDF12C6E",
+		"oF": 0
+		},
+	"\/img\/Quentia_Product.pxd\/metadata.info": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/img\/Quentia_Product.pxd\/metadata.info",
+		"oF": 0
+		},
+	"\/img\/Quentia_Product.pxd\/QuickLook\/Icon.tiff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/img\/Quentia_Product.pxd\/QuickLook\/Icon.tiff",
+		"oF": 0
+		},
+	"\/img\/Quentia_Product.pxd\/QuickLook\/Thumbnail.tiff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/img\/Quentia_Product.pxd\/QuickLook\/Thumbnail.tiff",
+		"oF": 0
+		},
+	"\/img\/Quentia_Product.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/Quentia_Product.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/Quentia_Products_2.png": {
+		"ft": 32768,
+		"iS": 775857,
+		"oA": 0,
+		"oAP": "\/img\/Quentia_Products_2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/three-women.png": {
 		"ft": 32768,
 		"iS": 415573,
@@ -261,6 +339,13 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/README.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0
 		},
 	"\/README.md": {
 		"cB": 0,
@@ -382,6 +467,19 @@
 		"oAP": "\/css\/main.css",
 		"oF": 2,
 		"oS": 3,
+		"uL": 1
+		},
+	"\/scss\/pages\/_coming-soon.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/pages\/_coming-soon.css",
+		"oF": 0,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/scss\/pages\/_home.scss": {

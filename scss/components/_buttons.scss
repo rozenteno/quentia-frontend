@@ -15,17 +15,7 @@
       background-color: darken($main-pink, 5%);
     }
   }
-  &--secondary {
-    font-family: $third-font;
-    background-color: $secondary-btn-color;
-    padding: 12px 40px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    &:hover {
-      background-color: darken($secondary-btn-color, 5%);
-    }
-  }
+
   &__underline--pink {
     font-family: $secondary-font;
     border: none;
@@ -38,5 +28,18 @@
     &:hover {
       color: darken($main-pink, 2%);
     }
+  }
+}
+a.btn--secondary {
+  font-family: $third-font;
+  background-color: $secondary-btn-color;
+  padding: 12px 40px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+  &:hover {
+    background-color: darken($secondary-btn-color, 5%);
   }
 }

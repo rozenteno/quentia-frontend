@@ -14,7 +14,9 @@ footer {
         margin-right: 12px;
         display: inline;
         font-size: 2rem;
-        color: $main-pink;
+        a {
+          color: $main-pink;
+        }
       }
     }
   }
