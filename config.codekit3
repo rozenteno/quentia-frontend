@@ -67,6 +67,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/Catalogue_2.jpg": {
+		"ft": 16384,
+		"iS": 162814,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/Catalogue_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/download-footer.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -212,13 +223,13 @@
 		},
 	"\/img\/Quentia_Product.jpg": {
 		"ft": 16384,
-		"iS": 26747,
+		"iS": 169701,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/Quentia_Product.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/Quentia_Product.png": {
@@ -269,6 +280,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/img\/Quentia_Product2.jpg": {
+		"ft": 16384,
+		"iS": 26747,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/Quentia_Product2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/img\/Quentia_Products_2.png": {
 		"ft": 32768,
