@@ -69,7 +69,7 @@
 		},
 	"\/img\/Catalogue_2.jpg": {
 		"ft": 16384,
-		"iS": 162814,
+		"iS": 91842,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/Catalogue_2.jpg",
@@ -77,16 +77,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
-		},
-	"\/img\/download-footer.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/download-footer.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"\/img\/download-on-the-app-store-apple.svg": {
 		"ft": 2097152,
@@ -108,16 +98,6 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
-		},
-	"\/img\/event.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/event.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"\/img\/google-play-badge.svg": {
 		"ft": 2097152,
@@ -180,67 +160,26 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/night.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/night.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/noun_fashion.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/noun_fashion.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/phones.png": {
-		"ft": 32768,
-		"iS": 199622,
+	"\/img\/phones.jpg": {
+		"ft": 16384,
+		"iS": 126617,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/phones.png",
+		"oAP": "\/img\/phones.jpg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/prom.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/prom.svg",
-		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
+		"q": 100
 		},
 	"\/img\/Quentia_Product.jpg": {
 		"ft": 16384,
-		"iS": 169701,
+		"iS": 126103,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/Quentia_Product.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"\/img\/Quentia_Product.png": {
-		"ft": 32768,
-		"iS": 2309259,
-		"oA": 0,
-		"oAP": "\/img\/Quentia_Product.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"\/img\/Quentia_Product.pxd\/data\/9F67F0D6-30A5-481B-B0FC-8639FDF12C6E": {
@@ -271,27 +210,6 @@
 		"oAP": "\/img\/Quentia_Product.pxd\/QuickLook\/Thumbnail.tiff",
 		"oF": 0
 		},
-	"\/img\/Quentia_Product.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/Quentia_Product.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/Quentia_Product2.jpg": {
-		"ft": 16384,
-		"iS": 26747,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/img\/Quentia_Product2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"\/img\/Quentia_Products_2.png": {
 		"ft": 32768,
 		"iS": 775857,
@@ -301,6 +219,97 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"\/img\/svg\/download-footer.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/svg\/download-footer.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/svg\/event.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/svg\/event.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/svg\/night.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/svg\/night.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/svg\/noun_fashion.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/svg\/noun_fashion.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/svg\/prom.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/svg\/prom.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/svg\/security.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/svg\/security.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/svg\/trust.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/svg\/trust.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/svg\/wedding.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/svg\/wedding.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/three-women.jpg": {
+		"ft": 16384,
+		"iS": 157769,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/three-women.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/three-women.png": {

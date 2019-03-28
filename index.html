@@ -21,7 +21,7 @@
       crossorigin="anonymous"
     />
     <!-- Hamburgers CSS -->
-    <link rel="stylesheet" href="css/vendors/hamburgers-min.css" />
+    <!-- <link rel="stylesheet" href="css/vendors/hamburgers-min.css" /> -->
     <!-- Font Awesome CSS -->
     <link
       rel="stylesheet"
@@ -31,6 +31,14 @@
     />
     <!-- Animation AOS CSS File -->
     <link rel="stylesheet" href="css/vendors/aos.css" />
+    <!-- Mailchimp Signup Form required CSS -->
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+      #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+      /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+
     <!-- Custom CSS File -->
     <link rel="stylesheet" href="css/main.css" />
   </head>
@@ -89,15 +97,40 @@
               </h1>
               <div class="content--second--anim">
                 <p class="header__content--secondary">
-                  Quentia es la nueva tendencia para rentar o comprar el vestido
-                  que quieres a un precio accesible y desde donde quiera que
+                  Quentia es la nueva tendencia para <span>rentar o comprar el vestido
+                    que quieres</span>  a un precio accesible y desde donde quiera que
                   estés. Además, gana dinero vendiendo o rentando vestidos que
                   tienes en tu closet.
                 </p>
                 <a href="coming-soon.html" class="btn btn--secondary">¡Empieza ya!</a>
                 <div class="d-none d-md-block">
                   <h3 class="header__content--third">Newsletter</h3>
-                  <form action="" class="form-row">
+                  <div id="mc_embed_signup">
+                    <form action="https://gmail.us20.list-manage.com/subscribe/post?u=1ab7d12f5dde82fea4085702e&amp;id=b254cbe97a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll" class="form-row">  
+                          <div class="col-7">
+                            <div class="mc-field-group">
+                              <label class="sr-only" for="mce-EMAIL">Email</label>
+                            </label> 
+                              <input type="email" value="" name="EMAIL" class="required email form-control mb-2 " id="mce-EMAIL">
+                            </div>
+
+                          </div>   
+                          <div class="col-5">
+                              <div class="clear"><input type="submit" value="Suscribir" name="subscribe" id="mc-embedded-subscribe" class="button btn btn--main"></div>
+                          </div>                                    
+                        </form>
+                        <!-- <div id="mce-responses" class="clear">
+                          <div class="response" id="mce-error-response" style="display:none"></div>
+                          <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>    -->
+                         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                          <!-- <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_1ab7d12f5dde82fea4085702e_b254cbe97a" tabindex="-1" value=""></div> -->
+                          
+                        </div>                       
+                    </div>
+                    <!--End mc_embed_signup-->
+                  <!-- <form action="" class="form-row">
                     <div class="col-7">
                       <label class="sr-only" for="inputEmail">email</label>
                       <input
@@ -112,7 +145,7 @@
                         Suscribir
                       </button>
                     </div>
-                  </form>
+                  </form> -->
                 </div>
               </div>
               <div class="media">
@@ -153,9 +186,7 @@
               </div>
               <div class="col-md-6">
                 <p class="motto__container--text">
-                    “Buscar un vestido puede ser muy divertido, pero si la fecha del evento se acerca y todavía no lo tienes, la búsqueda se convierte en una odisea. Por eso creamos Quentia,  para que tengas una preocupación menos ese día. 
-                    Sabemos lo importante que es para ti lucir espectacular en todos tus eventos y con Quentia puedes jugar con tu creatividad y usar un vestido diferente cada vez. 
-                    Seguramente alguien tiene en su closet un vestido que es justo lo que necesitabas y ahora lo puedes tener sin gastar tanto dinero y tiempo.”
+                  “Buscar un vestido puede ser muy divertido, pero si tú evento se acerca y todavía no lo tienes, la búsqueda se convierte en una odisea. Por eso creamos Quentia, sabemos lo importante que es para ti lucir espectacular en todos tus eventos y ahora podrás usar un vestido diferente cada vez. Estoy segura que alguien tiene en su clóset un vestido que es justo para ti y está al alcance de un click. Haz de Quentia tu closet y ¡no olvides presumirme tu look usando <span>#quentia</span> en tus fotos!”
                      <br />
                   <span>Fernanda Enciso / CEO </span>
                 </p>
@@ -179,7 +210,7 @@
           <div class="col-sm-12 col-md-6 works__container--img">
             <img
               class="img-fluid"
-              src="img/three-women.png"
+              src="img/three-women.jpg"
               alt="Three Woman"
             />
           </div>
@@ -203,13 +234,13 @@
               <br />
               <div class="row" data-aos="fade-left">
                 <div class="col-4 text-center">
-                  <img src="img/noun_fashion.svg" alt="Noun Fashion Icon" />
+                  <img src="img/svg/noun_fashion.svg" alt="Noun Fashion Icon" />
                   <h4>Simplicidad</h4>
                   <hr />
                   <p>Tu vestido en tus manos, en unos cuantos clics.</p>
                 </div>
                 <div class="col-4 text-center">
-                  <img src="img/noun_fashion.svg" alt="Noun Fashion Icon" />
+                  <img src="img/svg/trust.svg" alt="Trust SVG" />
                   <h4>Confianza</h4>
                   <hr />
                   <p>
@@ -217,7 +248,7 @@
                   </p>
                 </div>
                 <div class="col-4 text-center">
-                  <img src="img/noun_fashion.svg" alt="Noun Fashion Icon" />
+                  <img src="img/svg/security.svg" alt="Security SVG" />
                   <h4>Seguridad</h4>
                   <hr />
                   <p>
@@ -239,22 +270,22 @@
             <h1>Quiero rentar para</h1>
             <div class="row">
               <div class="col-6 col-md-3">
-                <a href="coming-soon.html">  <img src="img/w-ring.svg" alt="Wedding" />
+                <a href="coming-soon.html">  <img src="img/svg/wedding.svg" alt="Wedding SVG" />
                   <p>Boda</p></a>
               
               </div>
               <div class="col-6 col-md-3">
-                <a href="coming-soon.html"> <img src="img/event.svg" alt="Event" />
+                <a href="coming-soon.html"> <img src="img/svg/event.svg" alt="Event SVG" />
                   <p>Evento</p></a>
                
               </div>
               <div class="col-6 col-md-3">
-                <a href="coming-soon.html">  <img src="img/night.svg" alt="Night" />
+                <a href="coming-soon.html">  <img src="img/svg/night.svg" alt="Night SVG" />
                   <p>Night</p></a>
               
               </div>
               <div class="col-6 col-md-3">
-                <a href="coming-soon.html"> <img src="img/prom.svg" alt="Prom" />
+                <a href="coming-soon.html"> <img src="img/svg/prom.svg" alt="Prom SVG"  />
                   <p>Prom</p></a>
                
               </div>
@@ -267,10 +298,6 @@
     <div
       class="container-fluid quote"
       data-aos="fade-up"
-      data-aos-easing="ease-in-back"
-      data-aos-duration="1000"
-      data-aos-delay="500"
-      data-aos-offset="0"
     >
       <div class="quote__content text-center">
         <h1>
@@ -334,7 +361,7 @@
           <div class="col-md-6" data-aos="fade-down">
             <img
               class="img-fluid mobile-devices"
-              src="img/phones.png"
+              src="img/phones.jpg"
               alt="Phones App"
             />
           </div>
@@ -374,7 +401,7 @@
           <div
             class="col d-block d-sm-none text-center d-flex justify-content-center"
           >
-            <img src="img/download-footer.svg" alt="Download Footer SVG" />
+            <img src="img/svg/download-footer.svg" alt="Download Footer SVG" />
             <div class="media--footer d-flex align-items-center">
                 <ul>
                     <li>
@@ -418,8 +445,11 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>    
     <script src="js/vendors/anime.min.js"></script>
     <script src="js/vendors/aos.js"></script>
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+
     <script>
       AOS.init();
       anime({

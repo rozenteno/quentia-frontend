@@ -88,6 +88,9 @@ p.header__content--secondary {
   margin-bottom: 2rem;
   line-height: 1.7;
   text-align: justify;
+  span {
+    color: #000;
+  }
 }
 h3.header__content--third {
   font-family: $main-font;
