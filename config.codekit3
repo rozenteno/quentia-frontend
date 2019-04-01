@@ -171,6 +171,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/Quentia_Logo.png": {
+		"ft": 32768,
+		"iS": 27981,
+		"oA": 0,
+		"oAP": "\/img\/Quentia_Logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/Quentia_Product.jpg": {
 		"ft": 16384,
 		"iS": 126103,
@@ -181,34 +192,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
-		},
-	"\/img\/Quentia_Product.pxd\/data\/9F67F0D6-30A5-481B-B0FC-8639FDF12C6E": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/img\/Quentia_Product.pxd\/data\/9F67F0D6-30A5-481B-B0FC-8639FDF12C6E",
-		"oF": 0
-		},
-	"\/img\/Quentia_Product.pxd\/metadata.info": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/img\/Quentia_Product.pxd\/metadata.info",
-		"oF": 0
-		},
-	"\/img\/Quentia_Product.pxd\/QuickLook\/Icon.tiff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/img\/Quentia_Product.pxd\/QuickLook\/Icon.tiff",
-		"oF": 0
-		},
-	"\/img\/Quentia_Product.pxd\/QuickLook\/Thumbnail.tiff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/img\/Quentia_Product.pxd\/QuickLook\/Thumbnail.tiff",
-		"oF": 0
 		},
 	"\/img\/Quentia_Products_2.png": {
 		"ft": 32768,
@@ -525,6 +508,13 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/sitemap.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sitemap.xml",
+		"oF": 0
 		}
 	},
 "hooks": [
