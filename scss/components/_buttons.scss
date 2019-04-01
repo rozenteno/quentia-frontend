@@ -8,13 +8,22 @@
   &--main {
     background-color: $main-pink;
     font-family: $secondary-font;
-    font-size: 0.9rem;
-    padding: 6px 23px;
+    font-size: 1rem;
+    padding: 10px 40px;
     color: #fff;
     border: none;
+    letter-spacing: 1px;
     transition: background-color 0.3s ease-in-out;
     &:hover {
       background-color: darken($main-pink, 5%);
+    }
+    &:focus {
+      outline: 0;
+    }
+    @include respond(tab-port) {
+      padding: 10px 23px;
+      margin-left: 1rem;
+      margin-top: -1rem;
     }
   }
 

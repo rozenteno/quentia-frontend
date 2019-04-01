@@ -75,6 +75,12 @@
     padding: 70px 100px 0 0;
   }
   #mc_embed_signup {
+    &_scroll {
+      width: 100%;
+      @include respond(tab-land) {
+        width: auto;
+      }
+    }
     input.email {
       border: none;
       border-bottom: 2px solid $main-pink;
