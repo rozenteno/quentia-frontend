@@ -1,23 +1,28 @@
 .jumbotron.jumbotron-fluid {
   // background: lighten(#e9edf3, 5.5%);
   background-color: #fff;
-
   // margin-bottom: 1rem;
   @include respond("tab-port") {
     padding-bottom: 0;
   }
-  @include respond("desktop") {
-    height: 80vh;
-  }
+  // @include respond("desktop") {
+  //   height: 80vh;
+  // }
   .hero {
     &__inner--text {
-      padding: 88px 0 20px 40px;
-      @include respond("tab-port") {
-        padding: 88px 0 50px 80px;
-      }
-      @include respond("desktop") {
-        padding: 88px 0 120px 80px;
-      }
+      display: flex;
+      height: auto;
+      justify-content: center;
+      flex-direction: column;
+      padding: 0 1rem;
+      height: 50vh;
+      // padding: 88px 0 20px 40px;
+      // @include respond("tab-port") {
+      //   padding: 88px 0 50px 80px;
+      // }
+      // @include respond("desktop") {
+      //   padding: 88px 0 120px 80px;
+      // }
     }
     &__inner--media {
       position: relative;
@@ -28,6 +33,10 @@
         transform: perspective(1000px) rotateY(16deg) rotateX(2deg)
           rotateZ(-7deg) scaleY(0.95) translatex(2%);
         animation: fadeInLeftMedia 1s 0.2s both cubic-bezier(0.3, 0, 0.2, 1);
+        @include respond(big-desktop) {
+          transform: perspective(1000px) rotateY(16deg) rotateX(2deg)
+            rotateZ(-2deg) scaleY(0.95) translatex(3%);
+        }
       }
     }
   }
@@ -44,6 +53,10 @@
 }
 
 .product__info {
+  margin-top: 1rem;
+  @include respond(desktop) {
+    margin-top: 6rem;
+  }
   &__inner--text {
     h1 {
       font-family: $main-font;
