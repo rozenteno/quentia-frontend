@@ -227,11 +227,15 @@ footer {
   }
   ul {
     list-style: none;
-    li {
+    li,
+    a {
       font-family: $secondary-font;
       font-size: 0.9rem;
       margin-top: 0.7rem;
       color: #4a4a4a;
+      :hover {
+        color: #000;
+      }
       @include respond("desktop") {
         font-size: 0.7rem;
       }
@@ -241,5 +245,38 @@ footer {
     font-family: $secondary-font;
     font-size: 0.7rem;
     color: #cacaca;
+  }
+}
+
+// ======== HELP CSS Typography ==========
+.container-card {
+  h1 {
+    font-family: $main-font;
+    text-transform: capitalize;
+    font-weight: 700;
+  }
+  h3 {
+    font-family: $main-font;
+  }
+  p {
+    font-family: $secondary-font;
+  }
+  .tab-content {
+    h2 {
+      font-family: $secondary-font;
+      color: $main-pink;
+    }
+    .card {
+      &-header {
+        button {
+          font-family: $secondary-font;
+          font-size: 1rem;
+          font-weight: bold;
+        }
+      }
+      &-body {
+        font-family: $secondary-font;
+      }
+    }
   }
 }

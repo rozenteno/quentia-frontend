@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26667",
 "files": {
+	"\/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/about.html",
+		"oF": 0
+		},
 	"\/coming-soon.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -55,6 +62,13 @@
 		"oAP": "\/css\/vendors\/hamburgers-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/help.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/help.html",
+		"oF": 0
 		},
 	"\/img\/agent.jpg": {
 		"ft": 16384,
@@ -148,6 +162,17 @@
 		"oA": 0,
 		"oAP": "\/img\/icon.ico",
 		"oF": 0
+		},
+	"\/img\/info-banner.jpg": {
+		"ft": 16384,
+		"iS": 2098632,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/info-banner.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/img\/Logo.png": {
 		"ft": 32768,
@@ -492,6 +517,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/pages\/_coming-soon.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/pages\/_help.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/pages\/_help.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
