@@ -255,11 +255,27 @@ footer {
     text-transform: capitalize;
     font-weight: 700;
   }
-  h3 {
+  h3,
+  h4,
+  h5 {
     font-family: $main-font;
   }
   p {
     font-family: $secondary-font;
+    line-height: 1.7;
+    text-align: justify;
+    span {
+      font-weight: bold;
+    }
+  }
+  ol {
+    li {
+      font-family: $main-font;
+      margin-left: 1rem;
+      font-weight: bold;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+    }
   }
   .tab-content {
     h2 {
@@ -277,6 +293,40 @@ footer {
       &-body {
         font-family: $secondary-font;
       }
+    }
+  }
+}
+
+// ======== CONTACT CSS Typography ==========
+#contact-card {
+  h4 {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+  h5 {
+    font-family: $third-font;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-top: 3rem;
+  }
+  p a {
+    color: #6c757d;
+  }
+}
+form#contact-form {
+  .form-group {
+    label {
+      font-family: $third-font;
+      letter-spacing: 1.5px;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+    }
+    input,
+    textarea {
+      font-family: $secondary-font;
+      font-size: 1rem;
+      color: #000;
     }
   }
 }

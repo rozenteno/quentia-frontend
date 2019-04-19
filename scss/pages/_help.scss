@@ -81,4 +81,22 @@
       }
     }
   }
+  .send-message--container {
+    padding: 2rem;
+    margin: 0 auto;
+    .media {
+      figure {
+        display: block;
+        width: 100% !important;
+        max-width: 3.5rem;
+      }
+      &-body {
+        flex: 1;
+        a {
+          font-family: $secondary-font;
+          font-weight: bold;
+        }
+      }
+    }
+  }
 }

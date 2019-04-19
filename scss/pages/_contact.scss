@@ -1,0 +1,27 @@
+.contact--info {
+  background-color: #fff;
+  background-image: url("/img/contact.jpg");
+  background-position: 100% 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35vh;
+}
+form#contact-form {
+  input.form-control {
+    height: auto;
+  }
+  input.form-control,
+  textarea {
+    background: #fff;
+    border-radius: 0;
+    border: 1px solid #e5e5e5;
+    padding: 1rem 0.75rem;
+    &:focus {
+      box-shadow: none;
+      border: 1px solid $main-pink;
+    }
+  }
+  textarea {
+    resize: none;
+  }
+}

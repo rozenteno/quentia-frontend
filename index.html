@@ -75,17 +75,12 @@
       crossorigin="anonymous"
     />
     <!-- Animation AOS CSS File -->
-    <link rel="stylesheet" href="css/vendors/aos.css" />
-    <!-- Mailchimp Signup Form required CSS -->
-    <!-- <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css"> -->
-    <!-- <style type="text/css"> -->
-      <!-- /* #mc_embed_signup{background:#fff; clear:left; } */
-      /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */ -->
-    <!-- </style> -->
+    <link rel="stylesheet" href="css/vendors/aos.css" />    
     <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
     <!-- Custom CSS File -->
     <link rel="stylesheet" href="css/main.css" />
+    <!-- Cookie Alert CSS -->
+    <link rel="stylesheet" href="css/vendors/cookiealert-min.css">
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
@@ -225,15 +220,15 @@
       </div>
     </header>
     <div class="media">
-        <ul>
-          <li>
-            <a target="blank" href="https://www.facebook.com/Quentia-Oficial-545759405871133/"> <i class="fab fa-facebook-f"></i></a>
-          </li>
-          <li>
-            <a target="_blank" href="https://www.instagram.com/quentiaoficial/"><i class="fab fa-instagram"></i></a></i></li>
-          <li><a target="_blank" href="https://twitter.com/QuentiaOficial"><i class="fab fa-twitter"></i></a> </li>
-        </ul>
-      </div>
+      <ul>
+        <li>
+          <a target="blank" href="https://www.facebook.com/Quentia-Oficial-545759405871133/"> <i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.instagram.com/quentiaoficial/"><i class="fab fa-instagram"></i></a></i></li>
+        <li><a target="_blank" href="https://twitter.com/QuentiaOficial"><i class="fab fa-twitter"></i></a> </li>
+      </ul>
+    </div>
     <div class="container">
       <div class="motto__container">
         <div class="row">
@@ -430,34 +425,41 @@
         </div>
       </div>
     </div>
+    <!-- START Bootstrap-Cookie-Alert -->
+    <div class="alert text-center cookiealert" role="alert">
+      <b>¿Te gustan las cookies?</b> &#x1F36A; En Quentia utilizamos cookies para que siempre tengas la mejor experiencia en nuestra plataforma . <a href="privacy.html#cookie-policy" target="_blank">Saber Más</a>
+      <button type="button" class="btn btn--main btn-sm acceptcookies" aria-label="Close">
+          Acepto
+      </button>
+    </div>
+    <!-- END Bootstrap-Cookie-Alert -->
     <footer>
       <div class="container">
         <div class="row">
           <div class="col-sm-6 col-md-4">
             <h4>Ayuda</h4>
             <ul>
+              <li><a href="help.html">¿Quiénes somos?</a> </li>
               <li><a href="help.html">¿Cómo funciona Quentia?</a></li>
               <li><a href="help.html#v-pills-tab">Preguntas Frecuentes</a></li>
-              <li>Cómo Empezar</li>
-              <li>Garantías</li>
+              <li><a href="contact.html">Contacto</a></li>                          
             </ul>
           </div>
           <div class="col-sm-6 col-md-4">
             <h4>Quentia</h4>
             <ul>
               <li><a href="about.html">Misión</a></li>
-              <li>Visión</li>
-              <li>Comunidad</li>
-              <li>Contáctanos</li>
+              <li><a href="about.html">Visión</a></li>
+              <li><a href="about.html">Comunidad</a></li>
+              <li><a href="about.html">Agentes</a></li>
             </ul>
           </div>
           <div class="col-sm-6 col-md-4">
-            <h4>Agentes</h4>
+            <h4>Más Información</h4>
             <ul>
-              <li>Devoluciones</li>
-              <li>Problemas/Tíckets</li>
-              <li>Suscribirse</li>
-              <li>Políticas</li>
+              <li><a href="termsofservice.html">Términos y Condiciones</a></li>
+              <li><a href="privacy.html">Aviso de Privacidad</a></li>   
+              <li><a href="quentia-fee.html">Precios Quentia</a></li>                       
             </ul>
           </div>
           <div
@@ -509,6 +511,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
     <script src="js/vendors/anime.min.js"></script>
     <script src="js/vendors/aos.js"></script>
+    <script src="js/vendors/cookiealert-min.js"></script>
     <script>      
       AOS.init();
       anime({

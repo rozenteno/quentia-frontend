@@ -23,6 +23,13 @@
 		"oAP": "\/coming-soon.html",
 		"oF": 0
 		},
+	"\/contact.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/contact.html",
+		"oF": 0
+		},
 	"\/css\/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -40,6 +47,26 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/vendors\/aos-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/vendors\/cookiealert-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/vendors\/cookiealert-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/vendors\/cookiealert.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/vendors\/cookiealert-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -87,6 +114,28 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/Catalogue_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/contact-b.jpg": {
+		"ft": 16384,
+		"iS": 445256,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/contact-b.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/contact.jpg": {
+		"ft": 16384,
+		"iS": 308812,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/contact.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -183,6 +232,17 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"\/img\/more-info.jpg": {
+		"ft": 16384,
+		"iS": 635033,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/more-info.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/phones.jpg": {
@@ -379,6 +439,40 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/js\/vendors\/cookiealert-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/vendors\/cookiealert-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/vendors\/cookiealert.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/vendors\/cookiealert-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/privacy.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/privacy.html",
+		"oF": 0
+		},
+	"\/quentia-fee.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/quentia-fee.html",
+		"oF": 0
+		},
 	"\/README.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -521,6 +615,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/pages\/_contact.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/pages\/_contact.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/pages\/_help.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -547,11 +654,31 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/pages\/more-info.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/pages\/more-info.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sitemap.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/sitemap.xml",
+		"oF": 0
+		},
+	"\/termsofservice.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/termsofservice.html",
 		"oF": 0
 		}
 	},

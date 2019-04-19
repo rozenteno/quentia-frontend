@@ -72,6 +72,8 @@
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
+     <!-- Cookie Alert CSS -->
+     <link rel="stylesheet" href="css/vendors/cookiealert-min.css">
     <!-- Custom CSS File -->
     <link rel="stylesheet" href="css/main.css" />
   </head>
@@ -173,34 +175,41 @@ En Quentia, la experiencia del usuario es muy importante y queremos sorprenderte
         </div>
       </div>
     </div>
+    <!-- START Bootstrap-Cookie-Alert -->
+    <div class="alert text-center cookiealert" role="alert">
+      <b>¿Te gustan las cookies?</b> &#x1F36A; En Quentia utilizamos cookies para que siempre tengas la mejor experiencia en nuestra plataforma . <a href="privacy.html#cookie-policy" target="_blank">Saber Más</a>
+      <button type="button" class="btn btn--main btn-sm acceptcookies" aria-label="Close">
+          Acepto
+      </button>
+    </div>
+    <!-- END Bootstrap-Cookie-Alert -->
     <footer>
       <div class="container">
         <div class="row">
           <div class="col-sm-6 col-md-4">
             <h4>Ayuda</h4>
             <ul>
-              <li>¿Cómo funciona Quentia?</li>
-              <li>Preguntas Frecuentes</li>
-              <li>Cómo Empezar</li>
-              <li>Garantías</li>
+              <li><a href="help.html">¿Quiénes somos?</a> </li>
+              <li><a href="help.html">¿Cómo funciona Quentia?</a></li>
+              <li><a href="help.html#v-pills-tab">Preguntas Frecuentes</a></li>  
+              <li><a href="contact.html">Contacto</a></li>                        
             </ul>
           </div>
           <div class="col-sm-6 col-md-4">
             <h4>Quentia</h4>
             <ul>
-              <li>Misión</li>
-              <li>Visión</li>
-              <li>Comunidad</li>
-              <li>Contáctanos</li>
+              <li><a href="about.html">Misión</a></li>
+              <li><a href="about.html">Visión</a></li>
+              <li><a href="about.html">Comunidad</a></li>
+              <li><a href="about.html">Agentes</a></li>
             </ul>
           </div>
           <div class="col-sm-6 col-md-4">
-            <h4>Agentes</h4>
+            <h4>Más Información</h4>
             <ul>
-              <li>Devoluciones</li>
-              <li>Problemas/Tíckets</li>
-              <li>Suscribirse</li>
-              <li>Políticas</li>
+              <li><a href="termsofservice.html">Términos y Condiciones</a></li>
+              <li><a href="privacy.html">Aviso de Privacidad</a></li> 
+              <li><a href="quentia-fee.html">Precios Quentia</a></li>                         
             </ul>
           </div>
           <div
@@ -208,11 +217,14 @@ En Quentia, la experiencia del usuario es muy importante y queremos sorprenderte
           >
             <img src="img/svg/download-footer.svg" alt="Download Footer SVG" />
             <div class="media--footer d-flex align-items-center">
-              <ul>
-                <li><i class="fab fa-facebook-f"></i></li>
-                <li><i class="fab fa-instagram"></i></li>
-                <li><i class="fab fa-twitter"></i></li>
-              </ul>
+                <ul>
+                    <li>
+                      <a target="blank" href="https://www.facebook.com/Quentia-Oficial-545759405871133/"> <i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a target="_blank" href="https://www.instagram.com/quentiaoficial/"><i class="fab fa-instagram"></i></a></i></li>
+                    <li><a target="_blank" href="https://twitter.com/QuentiaOficial"><i class="fab fa-twitter"></i></a> </li>
+                  </ul>
             </div>
           </div>
         </div>
@@ -246,5 +258,6 @@ En Quentia, la experiencia del usuario es muy importante y queremos sorprenderte
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="js/vendors/cookiealert-min.js"></script>
   </body>
 </html>
