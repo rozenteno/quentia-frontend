@@ -41,19 +41,19 @@
       box-shadow: none;
     }
   }
-
-  &__underline--pink {
-    font-family: $secondary-font;
-    border: none;
-    color: #f9acbb;
-    border-bottom: 1px solid $main-pink;
-    padding-bottom: 7px;
-    margin-top: 20px;
-    transition: all 0.3s ease-in;
-    background-color: transparent;
-    &:hover {
-      color: darken($main-pink, 2%);
-    }
+}
+a.btn__underline--pink {
+  font-family: $secondary-font;
+  border: none;
+  color: #f9acbb;
+  border-bottom: 1px solid $main-pink;
+  padding-bottom: 7px;
+  margin-top: 20px;
+  transition: all 0.3s ease-in;
+  background-color: transparent;
+  &:hover {
+    color: darken($main-pink, 2%);
+    text-decoration: none;
   }
 }
 a.btn--secondary {
