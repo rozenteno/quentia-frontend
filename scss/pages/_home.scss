@@ -272,7 +272,7 @@ img.img-header {
   &-text {
     padding: 0 20px;
     @include respond("desktop") {
-      padding: 50px 70px;
+      padding: 50px 70px 0 0;
     }
   }
 }
