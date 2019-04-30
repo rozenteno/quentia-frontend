@@ -145,7 +145,10 @@ img.img-header {
   }
   .img--motto {
     height: 300px;
-    @include respond("desktop") {
+    display: block;
+    margin: 0 auto;
+    @include respond("tab-land") {
+      float: right;
       margin-top: 1.5rem;
     }
   }
