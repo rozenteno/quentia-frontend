@@ -212,6 +212,17 @@
 		"oAP": "\/img\/icon.ico",
 		"oF": 0
 		},
+	"\/img\/img-ceo.jpg": {
+		"ft": 16384,
+		"iS": 619119,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/img-ceo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/img\/info-banner.jpg": {
 		"ft": 16384,
 		"iS": 2098632,
@@ -410,6 +421,17 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"\/img\/works-img.jpg": {
+		"ft": 16384,
+		"iS": 82063,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/works-img.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/index.html": {

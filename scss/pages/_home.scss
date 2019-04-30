@@ -92,14 +92,19 @@
     }
   }
 }
+
 img.img-header {
   height: 400px;
   margin: 0 auto;
+  @include respond(tab-port) {
+    height: auto;
+  }
   @include respond("desktop") {
     margin-top: -50px;
     height: auto;
   }
 }
+
 .media ul {
   display: none;
   @include respond("desktop") {
@@ -139,8 +144,9 @@ img.img-header {
     }
   }
   .img--motto {
+    height: 300px;
     @include respond("desktop") {
-      margin-top: -30px;
+      margin-top: 1.5rem;
     }
   }
 }
