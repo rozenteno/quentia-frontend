@@ -5,6 +5,9 @@ h1.header__content--main {
   font-weight: 600;
   margin-bottom: 3rem;
   font-size: 2.5rem;
+  @include respond(tab-port) {
+    font-size: 3rem;
+  }
   @include respond("desktop") {
     font-size: 3.5rem;
   }
@@ -179,6 +182,9 @@ h3.header__content--third {
     h1 {
       font-family: $main-font;
       font-size: 1.8rem;
+      @include respond("tab-port") {
+        font-size: 2.5rem;
+      }
       @include respond("desktop") {
         font-size: 3rem;
       }
@@ -235,6 +241,9 @@ footer {
       color: #4a4a4a;
       :hover {
         color: #000;
+      }
+      @include respond("tab-port") {
+        font-size: 0.8rem;
       }
       @include respond("desktop") {
         font-size: 0.7rem;

@@ -194,28 +194,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/header-photo-2.jpg": {
-		"ft": 16384,
-		"iS": 5636208,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/img\/header-photo-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/header-photo-3.jpg": {
-		"ft": 16384,
-		"iS": 764177,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/img\/header-photo-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/img\/header-photo.jpg": {
 		"ft": 16384,
 		"iS": 2631972,
@@ -224,15 +202,294 @@
 		"oAP": "\/img\/header-photo.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
-	"\/img\/icon.ico": {
+	"\/img\/icon\/android-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 8539,
+		"oA": 0,
+		"oAP": "\/img\/icon\/android-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon\/android-icon-192x192.png": {
+		"ft": 32768,
+		"iS": 12349,
+		"oA": 0,
+		"oAP": "\/img\/icon\/android-icon-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon\/android-icon-36x36.png": {
+		"ft": 32768,
+		"iS": 1625,
+		"oA": 0,
+		"oAP": "\/img\/icon\/android-icon-36x36.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon\/android-icon-48x48.png": {
+		"ft": 32768,
+		"iS": 1939,
+		"oA": 0,
+		"oAP": "\/img\/icon\/android-icon-48x48.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon\/android-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 2636,
+		"oA": 0,
+		"oAP": "\/img\/icon\/android-icon-72x72.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon\/android-icon-96x96.png": {
+		"ft": 32768,
+		"iS": 5183,
+		"oA": 0,
+		"oAP": "\/img\/icon\/android-icon-96x96.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon\/apple-icon-114x114.png": {
+		"ft": 32768,
+		"iS": 6208,
+		"oA": 0,
+		"oAP": "\/img\/icon\/apple-icon-114x114.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon\/apple-icon-120x120.png": {
+		"ft": 32768,
+		"iS": 6575,
+		"oA": 0,
+		"oAP": "\/img\/icon\/apple-icon-120x120.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon\/apple-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 8539,
+		"oA": 0,
+		"oAP": "\/img\/icon\/apple-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon\/apple-icon-152x152.png": {
+		"ft": 32768,
+		"iS": 9296,
+		"oA": 0,
+		"oAP": "\/img\/icon\/apple-icon-152x152.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon\/apple-icon-180x180.png": {
+		"ft": 32768,
+		"iS": 12018,
+		"oA": 0,
+		"oAP": "\/img\/icon\/apple-icon-180x180.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon\/apple-icon-57x57.png": {
+		"ft": 32768,
+		"iS": 2224,
+		"oA": 0,
+		"oAP": "\/img\/icon\/apple-icon-57x57.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon\/apple-icon-60x60.png": {
+		"ft": 32768,
+		"iS": 2301,
+		"oA": 0,
+		"oAP": "\/img\/icon\/apple-icon-60x60.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon\/apple-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 2636,
+		"oA": 0,
+		"oAP": "\/img\/icon\/apple-icon-72x72.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon\/apple-icon-76x76.png": {
+		"ft": 32768,
+		"iS": 2769,
+		"oA": 0,
+		"oAP": "\/img\/icon\/apple-icon-76x76.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon\/apple-icon-precomposed.png": {
+		"ft": 32768,
+		"iS": 12925,
+		"oA": 0,
+		"oAP": "\/img\/icon\/apple-icon-precomposed.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon\/apple-icon.png": {
+		"ft": 32768,
+		"iS": 12925,
+		"oA": 0,
+		"oAP": "\/img\/icon\/apple-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon\/browserconfig.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/img\/icon.ico",
+		"oAP": "\/img\/icon\/browserconfig.xml",
 		"oF": 0
+		},
+	"\/img\/icon\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 1036,
+		"oA": 0,
+		"oAP": "\/img\/icon\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1512,
+		"oA": 0,
+		"oAP": "\/img\/icon\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon\/favicon-96x96.png": {
+		"ft": 32768,
+		"iS": 5183,
+		"oA": 0,
+		"oAP": "\/img\/icon\/favicon-96x96.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/img\/icon\/favicon.ico",
+		"oF": 0
+		},
+	"\/img\/icon\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/img\/icon\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/img\/icon\/ms-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 8539,
+		"oA": 0,
+		"oAP": "\/img\/icon\/ms-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon\/ms-icon-150x150.png": {
+		"ft": 32768,
+		"iS": 9189,
+		"oA": 0,
+		"oAP": "\/img\/icon\/ms-icon-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon\/ms-icon-310x310.png": {
+		"ft": 32768,
+		"iS": 27387,
+		"oA": 0,
+		"oAP": "\/img\/icon\/ms-icon-310x310.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon\/ms-icon-70x70.png": {
+		"ft": 32768,
+		"iS": 2604,
+		"oA": 0,
+		"oAP": "\/img\/icon\/ms-icon-70x70.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/img-ceo2.jpg": {
 		"ft": 16384,
@@ -286,7 +543,7 @@
 		"oAP": "\/img\/phones.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/Quentia_Logo.png": {
@@ -432,28 +689,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/three-women.jpg": {
-		"ft": 16384,
-		"iS": 157769,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/img\/three-women.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/three-women.png": {
-		"ft": 32768,
-		"iS": 415573,
-		"oA": 0,
-		"oAP": "\/img\/three-women.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/img\/w-ring.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -463,17 +698,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/img\/women-laughing.png": {
-		"ft": 32768,
-		"iS": 188835,
-		"oA": 0,
-		"oAP": "\/img\/women-laughing.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
 		},
 	"\/img\/works-img.jpg": {
 		"ft": 16384,
