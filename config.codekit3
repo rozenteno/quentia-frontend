@@ -97,6 +97,17 @@
 		"oAP": "\/help.html",
 		"oF": 0
 		},
+	"\/img\/agent-container-img.jpg": {
+		"ft": 16384,
+		"iS": 1665891,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/agent-container-img.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 86
+		},
 	"\/img\/agent.jpg": {
 		"ft": 16384,
 		"iS": 1414614,
