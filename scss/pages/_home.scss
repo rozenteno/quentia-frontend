@@ -67,13 +67,19 @@
 }
 
 .header__content {
-  padding: 20px 0 50px 0;
-  @include respond("tab-land") {
-    padding: 80px 100px 0 0;
+  margin-top: 2rem;
+  @include respond("tab-port") {
+    margin-top: 3rem;
+    height: 60vh;
+    // padding: 80px 100px 0 0;
   }
   @include respond("desktop") {
-    padding: 70px 100px 0 0;
+    margin-top: 0;
+    height: 80vh;
   }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   #mc_embed_signup {
     &_scroll {
       width: 100%;
@@ -134,7 +140,7 @@ img.img-header {
   }
 }
 .motto__container {
-  margin-bottom: 30px;
+  margin: 2rem 0;
   &--text {
     margin-top: 30px;
     border-left: 2px solid $main-pink;
@@ -161,7 +167,7 @@ img.img-header {
   &--text {
     padding-top: 50px;
     @include respond("desktop") {
-      padding-top: 120px;
+      padding-top: 3rem;
     }
     h1 {
       &::before {
@@ -176,7 +182,7 @@ img.img-header {
         -webkit-transform: rotate(2deg);
         transform: rotate(2deg);
         @include respond("desktop") {
-          top: 120px;
+          top: 3rem;
           width: 540px;
           left: 0;
         }
@@ -275,7 +281,9 @@ img.img-header {
   img.mobile-devices {
     margin-top: 30px;
     @include respond("desktop") {
-      margin-top: 0;
+      height: 500px;
+      margin: 0 auto;
+      display: block;
     }
   }
   &-text {
@@ -327,8 +335,7 @@ img.img-header {
     top: 0;
     left: 0;
     width: 0%;
-    height: 90%;
-    // margin-top: 60px;
+    height: 100%;
     background: $light-pink;
     position: absolute;
     animation: rev-img-right 1.5s cubic-bezier(0.19, 1, 0.22, 1) backwards;
@@ -362,7 +369,7 @@ img.img-header {
   }
   50% {
     left: 0;
-    width: 100%;
+    width: 90%;
   }
   100% {
     right: 100%;
